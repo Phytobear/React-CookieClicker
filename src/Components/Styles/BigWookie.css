@@ -1,0 +1,8 @@
+.bigWookieContainer img {
+  width: 55rem;
+  margin: -10rem auto;
+}
+
+.bigWookieContainer img:active {
+  transform: scale(0.95);
+}
