@@ -13,7 +13,7 @@ export default function UpgradeButtons({
 
   useEffect(() => {
     async function fetchUpgrades() {
-      const res = await fetch("http://localhost:8080/api/upgrades");
+      const res = await fetch("https://react-cookieclicker-1-dg3c.onrender.com/api/upgrades");
       const fetchData = await res.json();
       setUpgrades(fetchData);
     }
